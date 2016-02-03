@@ -138,6 +138,10 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
+         * Stump CMF Service Providers...
+         */
+        Skimia\ApiFusion\ApiFusionServiceProvider::class, 
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,

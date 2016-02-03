@@ -14,3 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+/*
+|--------------------------------------------------------------------------
+| Api Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an api.
+|
+*/
+APIRoute::version('v1', function ($api) {
+
+    RouteFusion::apiIndexListing($api);
+});
