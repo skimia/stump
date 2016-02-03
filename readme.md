@@ -9,6 +9,14 @@
 
 Stump is a client/server web application framework built on laravel with angularjs client. The base of the framework is the REST api.
 
+## Installation
+
+you can install the Stump cmf with [composer](https://getcomposer.org/) 
+
+- download/install project with `composer create-project -s dev skimia/stump folder`
+- configuring the `/.env` file according to your system settings
+- run migration with `php artisan migrate` in the project directory
+
 ## Official Documentation
 
 Documentation for the framework can be found on the [Stump website](http://stump.skimia.agency).
