@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Stump CMF</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -9,7 +9,6 @@
             html, body {
                 height: 100%;
             }
-
             body {
                 margin: 0;
                 padding: 0;
@@ -32,13 +31,19 @@
 
             .title {
                 font-size: 96px;
+                margin-bottom: 40px;
+            }
+
+            .quote {
+                font-size: 24px;
             }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Stump CMF</div>
+                <div class="quote">Laravel 5 & AngularJS based One Page Content Management Framework </div>
             </div>
         </div>
     </body>
