@@ -140,7 +140,11 @@ return [
         /*
          * Stump CMF Service Providers...
          */
-        Skimia\ApiFusion\ApiFusionServiceProvider::class, 
+        Skimia\ApiFusion\ApiFusionServiceProvider::class,
+        /*
+         * Third party Service Providers...
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class, 
         /*
          * Application Service Providers...
          */
