@@ -17,6 +17,9 @@ you can install the Stump cmf with [composer](https://getcomposer.org/)
 - configuring the `/.env` file according to your system settings
 - run migration with `php artisan migrate` in the project directory
 
+#### Error 500 With no information ?
+> Verify the framework has write access on `/storage` directory
+
 ## Official Documentation
 
 Documentation for the framework can be found on the [Stump website](http://stump.skimia.agency).
