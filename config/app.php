@@ -141,6 +141,7 @@ return [
          * Stump CMF Service Providers...
          */
         Skimia\ApiFusion\ApiFusionServiceProvider::class,
+        Skimia\Assets\AssetsServiceProvider::class,
         /*
          * Third party Service Providers...
          */

@@ -9,7 +9,8 @@
         "laravel/framework": "5.1.*",
         "skimia/api-fusion": "dev-master",
         "tymon/jwt-auth": "dev-develop#2f6a539",
-        "barryvdh/laravel-ide-helper": "^2.1"
+        "barryvdh/laravel-ide-helper": "^2.1",
+        "skimia/assets": "^0.1.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -35,7 +36,8 @@
             "php artisan clear-compiled",
             "php artisan ide-helper:generate -M",
             "php artisan ide-helper:meta",
-            "php artisan optimize"
+            "php artisan optimize",
+            "php artisan asset:generate-collections"
         ],
         "pre-update-cmd": [
             "php artisan clear-compiled"
@@ -43,7 +45,8 @@
         "post-update-cmd": [
             "php artisan ide-helper:generate",
             "php artisan ide-helper:meta",
-            "php artisan optimize"
+            "php artisan optimize",
+            "php artisan asset:generate-collections"
         ],
         "post-root-package-install": [
             "php -r \"copy('.env.example', '.env');\""
