@@ -7,7 +7,7 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
-        "skimia/api-fusion": "dev-master",
+        "skimia/api-fusion": "^0.1.0",
         "tymon/jwt-auth": "dev-develop#2f6a539",
         "barryvdh/laravel-ide-helper": "^2.1",
         "skimia/assets": "^0.1.1"
