@@ -37,7 +37,7 @@
             "php artisan ide-helper:generate -M",
             "php artisan ide-helper:meta",
             "php artisan optimize",
-            "php artisan asset:dump-collections"
+            "php artisan asset:dump-collections --silent"
         ],
         "pre-update-cmd": [
             "php artisan clear-compiled"

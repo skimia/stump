@@ -197,6 +197,16 @@ return[
         base_path('node_modules'),
         base_path('bower_components'),
     ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Max depth in scanned directories
+    |--------------------------------------------------------------------------
+    | for performance reason you can limit the depth in scanned directories
+    | it can be override by directories options
+    |
+    */
+    'max_depth'=>3,
     /*
     |--------------------------------------------------------------------------
     | File prediction for assets
