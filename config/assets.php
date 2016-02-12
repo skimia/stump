@@ -186,10 +186,14 @@ return[
     | Directories contening Package that needs to Scan
     |--------------------------------------------------------------------------
     | generaly vendors, node_modules, bower_components
+    | you can add options by set the path in key & the array of options in value
+    | or you can just pass the path in value for default options
     |
     */
     'directories'=>[
-        base_path('vendor'),
+        base_path('vendor') => [
+            'max_depth'=>3
+        ],
         base_path('node_modules'),
         base_path('bower_components'),
     ],

@@ -37,7 +37,7 @@
             "php artisan ide-helper:generate -M",
             "php artisan ide-helper:meta",
             "php artisan optimize",
-            "php artisan asset:generate-collections"
+            "php artisan asset:dump-collections"
         ],
         "pre-update-cmd": [
             "php artisan clear-compiled"
@@ -46,7 +46,7 @@
             "php artisan ide-helper:generate",
             "php artisan ide-helper:meta",
             "php artisan optimize",
-            "php artisan asset:generate-collections"
+            "php artisan asset:dump-collections"
         ],
         "post-root-package-install": [
             "php -r \"copy('.env.example', '.env');\""
