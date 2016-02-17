@@ -1,5 +1,7 @@
 ## Stump Content Management Framework
 
+[![Gitter](https://img.shields.io/gitter/room/skimia/StumpCMF.svg?style=flat-square)](https://gitter.im/skimia/StumpCMF?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+
 <!--([![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
 [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
 [![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
