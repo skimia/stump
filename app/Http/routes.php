@@ -26,4 +26,5 @@ Route::get('/', function () {
 APIRoute::version('v1', function ($api) {
 
     RouteFusion::apiIndexListing($api);
+    RouteFusion::apiLoginJWT($api); //authentification par JSONWebTokens (you must install tymon/jwt-auth package)
 });
